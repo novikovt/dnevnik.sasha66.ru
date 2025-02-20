@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дневник Свердловской области Лицея 9</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f5f5f5; color: #333; display: flex; flex-direction: column; }
+        header { background: #3f51b5; color: white; padding: 15px; text-align: center; font-size: 24px; width: 100%; }
+        nav { background: #303f9f; padding: 10px; width: 150px; height: 100vh; position: fixed; left: 0; top: 0; display: flex; flex-direction: column; }
+        nav a { color: white; text-decoration: none; padding: 10px; display: block; text-align: left; }
+        .container { padding: 20px; margin-left: 170px; width: calc(100% - 170px); }
+        footer { background: #3f51b5; color: white; text-align: center; padding: 10px; font-size: 12px; width: 100%; position: relative; margin-top: 20px; }
+        img { max-width: 100%; height: auto; display: block; margin: 10px 0; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; background: white; }
+        th, td { border: 1px solid #ddd; padding: 10px; text-align: center; }
+        th { background-color: #303f9f; color: white; }
+        section { background: white; padding: 20px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0px 2px 4px rgba(0,0,0,0.1); }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#schedule">Расписание</a>
+        <a href="#journal">Электронный журнал</a>
+        <a href="#homework">Домашние задания</a>
+        <a href="#news">Новости</a>
+    </nav>
+    <div class="container">
+        <header>Добро пожаловать в Дневник Свердловской области Лицея 9</header>
+        <section id="schedule">
+            <h2>Расписание уроков</h2>
+            <table>
+                <tr>
+                    <th></th>
+                    <th>Понедельник</th>
+                    <th>Вторник</th>
+                    <th>Среда</th>
+                    <th>Четверг</th>
+                    <th>Пятница</th>
+                </tr>
+                <tr>
+                    <td>1 урок</td>
+                    <td>Математика</td>
+                    <td>Литература</td>
+                    <td>Биология</td>
+                    <td>География</td>
+                    <td>Английский</td>
+                </tr>
+                <tr>
+                    <td>2 урок</td>
+                    <td>Русский язык</td>
+                    <td>Математика</td>
+                    <td>Физика</td>
+                    <td>Математика</td>
+                    <td>Литература</td>
+                </tr>
+                <tr>
+                    <td>3 урок</td>
+                    <td>История</td>
+                    <td>Физкультура</td>
+                    <td>Русский язык</td>
+                    <td>Химия</td>
+                    <td>Физика</td>
+                </tr>
+                <tr>
+                    <td>4 урок</td>
+                    <td>Физика</td>
+                    <td>География</td>
+                    <td>Обществознание</td>
+                    <td>Физкультура</td>
+                    <td>Математика</td>
+                </tr>
+                <tr>
+                    <td>5 урок</td>
+                    <td>Английский</td>
+                    <td>Химия</td>
+                    <td>История</td>
+                    <td>Информатика</td>
+                    <td>Русский язык</td>
+                </tr>
+            </table>
+        </section>
+        <section id="journal">
+            <h2>Электронный журнал</h2>
+            <table>
+                <tr>
+                    <th>Ученик</th>
+                    <th>Математика</th>
+                    <th>Русский язык</th>
+                    <th>История</th>
+                    <th>Физика</th>
+                    <th>Английский</th>
+                </tr>
+                <tr>
+                    <td>Иванов Егор</td>
+                    <td>5</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>3</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>Коковин Ростислав</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Глазков Егор</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                </tr>
+            </table>
+        </section>
+        <section id="homework">
+            <h2>Домашние задания</h2>
+            <table>
+                <tr>
+                    <th>Предмет</th>
+                    <th>Задание</th>
+                    <th>Срок сдачи</th>
+                </tr>
+                <tr>
+                    <td>Математика</td>
+                    <td>Решить уравнения из учебника, стр. 45, №1-10</td>
+                    <td>20.01.2025</td>
+                </tr>
+                <tr>
+                    <td>Русский язык</td>
+                    <td>Написать сочинение на тему "Весна"</td>
+                    <td>25.01.2025</td>
+                </tr>
+                <tr>
+                    <td>Физика</td>
+                    <td>Подготовить доклад о законе Архимеда</td>
+                    <td>26.01.2025</td>
+                </tr>
+                <tr>
+                    <td>История</td>
+                    <td>Выучить даты по Великой Отечественной войне</td>
+                    <td>27.01.2025</td>
+                </tr>
+            </table>
+        </section>
+        <section id="news">
+            <h2>Новости</h2>
+            <ul>
+                <li><strong>21 февраля 2025:</strong> В школе прошла сдача проектов для старшеклассников.</li>
+                <li><strong>20 февраля 2025:</strong> В школе прошел смотр строя и песни.</li>
+            </ul>
+        </section>
+    </div>
+    <footer>
+        <p>© 2025 Школьный портал | Адрес: Асбест | Телефон: +7 (343) 123-45-67 | Email: info@school.ru | Создатель сайта: Новиков Александр</p>
+    </footer>
+</body>
+</html>
